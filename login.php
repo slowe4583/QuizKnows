@@ -59,8 +59,24 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["id"] = $id;
                             $_SESSION["username"] = $username;                            
                             
-                            //replace with prepared statements
+                            $sql = "SELECT isAdmin from users where id = ?";
 
+                            if($stmt = mysqli_prepare($link, $sql)) {
+                                // Bind variables to the prepared statement as parameters
+
+                                mysqli_stmt_bind_param($stmt, "i", $id);
+                                if (mysqli_stmt_execute($stmt)) {
+                                    // Store result
+                                    mysqli_stmt_store_result($stmt);
+                                    mysqli_stmt_bind_result($stmt, $isAdmin);
+                                    if(mysqli_stmt_fetch($stmt));
+                                    $_SESSION["isAdmin"] = $isAdmin;
+                                }
+
+                            }
+
+
+                                //replace with prepared statements
                             $link->query("update users set loginNum=loginNum+1 where username="."\"".$username."\""."");
                             $link->query("update users set latestLog=CURRENT_TIMESTAMP where username="."\"".$username."\""."");
                             // Redirect user to welcome page
