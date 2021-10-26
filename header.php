@@ -6,10 +6,8 @@
  <a class="active" href="../logOut.php">Logout</a>
      <?php
      require_once "auth.php";
-     echo $_SESSION["isAdmin"];
      if ($_SESSION["isAdmin"] == "1")
      {
-
          echo "<a class='active' href='../adminLog.php'>Admin Log</a>";
      }
      ?>
