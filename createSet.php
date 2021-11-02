@@ -7,11 +7,10 @@ require "header.php";
     <h1>Create A Set</h1>
     <body>
         Set Name:<input type="text" id=setName>
-        
         <br>
         <br>
-        <a href="createCard.php">
-        <button>Add a Flashcard?</button>
-        </a>
+        <button id="addBtn">Add a Flashcard</button>
+        <button id="displayBtn">Show All Cards</button>
+        <script type="text/javascript" src="createSet.js"></script>
     </body>
 </html>
