@@ -1,16 +1,16 @@
 /* unvisited link */
 a:link {
-  color: red;
+  color: black;
 }
 
 /* visited link */
 a:visited {
-  color: green;
+  color: black;
 }
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: black;
 }
 
 /* selected link */
@@ -18,9 +18,9 @@ a:active {
   color: blue;
 }
 body{
-  background-color: #80CEE1;
+  background-color: #f0e68c;
   font-family: arial;
-  color:#80CEE1;
+  color:#f0e68c;
   }
   
   .topNav {
@@ -272,8 +272,8 @@ body{
 }
 
 .body {
-  background-color: #80CEE1;
-  color: #80CEE1;
+  background-color: #f0e68c;
+  color: #00d4ff;
   text-transform: uppercase;
   -o-object-fit: fill;
   object-fit: fill;
