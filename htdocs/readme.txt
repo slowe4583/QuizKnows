@@ -1,4 +1,4 @@
-QuizKnows is a web based flashcard application assignment for CSCIU521. Property of Aaron, Gillian, Steven, Kristi. CODE IS NOT FOR OTHERS USE WITHOUT PERMISSION. 
+QuizKnows is a web based flashcard application assignment for CSCIU521. Property of Aaron, Gillian, Steven, and Kristi. CODE IS NOT FOR OTHERS USE WITHOUT PERMISSION. FINES WILL BE CHARGED BASED ON UNAUTHORIZED UTILIZATION!
 Steps to make work
 1) Upload files into HTDOCS in XAMPP (Download if necessary)
 2) Main page is localhost/index.php used for testing
