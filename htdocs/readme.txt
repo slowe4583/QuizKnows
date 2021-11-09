@@ -14,3 +14,4 @@ Implementation of search bar function
 Link to previous pages
 Creat Card List, Create, Read, Update, Show Set of Cards (uses subject_ID in search to work) 
 Delete hundreds of files used for testing
+Basic CSS Styling (I know we dont have time later to make it look cool so I did now)
