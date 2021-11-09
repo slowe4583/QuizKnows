@@ -7,3 +7,10 @@ Steps to make work
 Steps to be me made still)
 Switch my database with our database (very simply, but currently do not have time). 
 
+Steps Completed)
+Create Subject List, Create, Read, Update, Delete
+Create Show Set of Cards which represents a flashcard set
+Implementation of search bar function
+Link to previous pages
+Creat Card List, Create, Read, Update, Show Set of Cards (uses subject_ID in search to work) 
+Delete hundreds of files used for testing
