@@ -3,7 +3,7 @@ Steps to make work
 1) Upload files into HTDOCS in XAMPP
 2) Main page is localhost/index.php
 3) In PHPMyAdmin create table in flaschards/docs/flashcardtable.sql
-
+4) All .php files of importance that are septible to change are in htdocs/flashcards/pages
 Steps to be me made still)
 Switch my database with our database (very simply, but currently do not have time). 
 
