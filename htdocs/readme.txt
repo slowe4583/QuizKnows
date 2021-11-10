@@ -25,3 +25,6 @@ Update - Update card (CardID, SubjectID, Question, Answer)
 Show Set of Cards- shows set of cards (uses subject_ID in search to work) 
 Delete hundreds of files used for testing and research for teams own readability
 Basic/ Advanced / Universal CSS Styling (I know we dont have time later to make it look cool so I did now)
+
+
+MIT LICENSE GIVEN UPON REQUEST
