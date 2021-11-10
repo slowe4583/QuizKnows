@@ -2,13 +2,6 @@
 
     require($_SERVER['DOCUMENT_ROOT'] . '/flashcards/core/app.php'); 
     require(APP_ROOT_DIR . '/fragments/header.php');
-
-    // using the $db_conn variable which is initialized in cord/database.php
-    // connect to the database and get all the subjects
-    // 
-    // NOTE!! This query is different from the subject/list.php. It uses an INNER JOIN in order to get the subject name
-    // instead of the subject ID that is available in this card row
-    // 
     $sql = 'SELECT card.id, card.question, card.answer, subject.subject_name FROM card INNER JOIN subject ON card.subject_id = subject.id';
     $result = $db_conn->query($sql);
     if($db_conn->error){
