@@ -1,7 +1,26 @@
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
 body{
-  background-color: #2C3539;
+  background-color: #f0e68c;
   font-family: arial;
-  color:#F0FFFF;
+  color:#f0e68c;
   }
   
   .topNav {
@@ -164,7 +183,7 @@ body{
 }
 
 .navbar-light-navbutton:hover {
-  background-color: #242424;
+  background-color: #f0e68c;
 }
 
 .centered-container {
@@ -253,7 +272,7 @@ body{
 }
 
 .body {
-  background-color: #03ddff;
+  background-color: #f0e68c;
   color: #00d4ff;
   text-transform: uppercase;
   -o-object-fit: fill;
